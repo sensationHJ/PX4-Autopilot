@@ -67,7 +67,7 @@ PARAM_DEFINE_INT32(TRIG_INTERFACE, 4);
  * @reboot_required true
  * @group Camera trigger
  */
-PARAM_DEFINE_FLOAT(TRIG_INTERVAL, 40.0f);
+PARAM_DEFINE_FLOAT(TRIG_INTERVAL, 50.0f);
 
 /**
  * Minimum camera trigger interval
@@ -110,7 +110,7 @@ PARAM_DEFINE_INT32(TRIG_POLARITY, 0);
  * @reboot_required true
  * @group Camera trigger
  */
-PARAM_DEFINE_FLOAT(TRIG_ACT_TIME, 40.0f);
+PARAM_DEFINE_FLOAT(TRIG_ACT_TIME, 0.5f);
 
 /**
  * Camera trigger mode
@@ -125,7 +125,7 @@ PARAM_DEFINE_FLOAT(TRIG_ACT_TIME, 40.0f);
  * @reboot_required true
  * @group Camera trigger
  */
-PARAM_DEFINE_INT32(TRIG_MODE, 0);
+PARAM_DEFINE_INT32(TRIG_MODE, 1);
 
 /**
  * Camera trigger pin
